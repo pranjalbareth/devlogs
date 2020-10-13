@@ -64,3 +64,15 @@ def join(requests):
 		instance.save()
 
 	return render(requests, 'join.html') 
+
+def search(request):
+	query = request.GET['query']
+	if len(query)>75:
+		allblogs = blogs.objects.none()
+	else:
+		allblogsContent = Blog.objects.filter(content__icontains=query)
+		allblogsTitle = Blog.objects.filter(title__icontains=query)
+		allblogsTag = Blog.objects.filter(tag__icontains=query)
+		allblogs = allblogsTitle.union(allblogsContent, allblogsTag)
+	params = {'allblogs': allblogs, 'query':query}
+	return render(request, 'search.html', params)

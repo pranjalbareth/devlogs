@@ -27,6 +27,7 @@ urlpatterns = [
         path('join/', views.join, name='join'),
         path('General/', views.blog, name='General'),
         path('projects/', views.projects, name='projects'),
+        path('search/', views.search, name='search'),
 ]
 
 from django.conf import settings
