@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+.Logo {
+    color: rgb(0, 0, 0);
+    font-family: 'Lexend Deca', sans-serif;
+    float: left;
+    font-size: 24px;
+    padding-left: 80px;
+    padding-top: 18px;
+    padding-right: 5px;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+}
+
+@media (max-width: 390px) {
+    .Logo {
+        font-size: 25px;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 340px) {
+    .Logo {
+        font-size: 23px;
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+}
