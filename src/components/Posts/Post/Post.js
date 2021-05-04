@@ -46,7 +46,7 @@ const post = props => {
             >
                 <h1 className={h1Class.join(" ")}>{props.title}</h1>
             </Link>
-            <span className={cssClass.tooltiptext}>{props.totalComments}{" "}{props.totalComments == 1 ? " Comment" : " Comments"}</span>
+            <span className={cssClass.tooltiptext}>{props.totalComments}{" "}{props.totalComments === 1 ? " Comment" : " Comments"}</span>
             </div>
             <div className={articleDivClass.join(" ")}>
                 <p className={articlePClass.join(" ")}>
