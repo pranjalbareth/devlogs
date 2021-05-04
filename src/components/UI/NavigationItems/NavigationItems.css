@@ -1,0 +1,10 @@
+.UnorderList {
+    display: flex;
+    flex-flow: column;
+}
+
+.NavigationItems {
+    float: right;
+    line-height: 15px;
+    margin-right: 5px;
+}

@@ -1,0 +1,80 @@
+.Button {
+    /* outline: none;
+    border: 2px solid rgb(85, 207, 255);
+    padding: 9px;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 15px;
+    min-width: 80px;
+    transition: all 0.1s ease-in-out;
+    border-radius: 5px; */
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 9px;
+    background-color: black;
+    cursor: pointer;
+    margin-right: 15px;
+    min-width: 80px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    border-radius: 5px;
+    color: white;
+}
+
+.Button:hover {
+    /* box-shadow: 0 3px 4px #ccc;
+    background-color: rgb(85, 207, 255);
+    color: white;
+    transition: all 0.1s ease-out; */
+    /* -webkit-box-shadow: 0 3px 4px #ccc;
+    box-shadow: 0 3px 4px #ccc; */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    -webkit-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.Button:disabled {
+    cursor: not-allowed;
+    background-color: rgb(211, 211, 211);
+    border: 2px solid rgb(211, 211, 211);
+    color: rgb(131, 131, 131) !important;
+}
+
+.Button:disabled:hover {
+    box-shadow: none;
+    color: rgb(131, 131, 131) !important;
+}
+
+.Danger {
+    outline: none;
+    border: 2px solid rgb(255, 105, 105);
+    padding: 9px;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 15px;
+    min-width: 80px;
+    transition: all 0.1s ease-in-out;
+}
+
+.Danger:hover {
+    box-shadow: 0 3px 4px #ccc;
+    background-color: rgb(255, 105, 105);
+    color: white;
+    transition: all 0.1s ease-out;
+}
+
+.Danger:disabled {
+    cursor: not-allowed;
+    background-color: rgb(211, 211, 211);
+    border: 2px solid rgb(211, 211, 211);
+    color: rgb(131, 131, 131) !important;
+}
+
+.Danger:disabled:hover {
+    box-shadow: none;
+    color: rgb(131, 131, 131) !important;
+}

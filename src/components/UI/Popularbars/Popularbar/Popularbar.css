@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.Item {
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    padding-right: 0px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    line-height: 1.45;
+    font-weight: 500;
+    outline: currentcolor none medium;
+    outline: currentcolor none medium;
+    color: #000;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: white;
+    height: 59.9px;
+}
+
+.Item.active {
+    color: rgb(75, 75, 75);
+}
+
+.Item:hover {
+    color: rgb(0, 0, 0);
+    height: 59.9px;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.Item::after {
+    content: "";
+    display: block;
+    height: 3.5px;
+    width: 0;
+    background: transparent;
+    transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+.Item:hover:after {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 3px;
+}
+
+.LinkAuthor {
+    outline: currentcolor none medium;
+    color: #000;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.LinkAuthor:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+}
