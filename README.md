@@ -3,7 +3,7 @@
 The backend is completely build on Django using Django Rest Framework, while the frontend is built using bootstrap
 
 ## Backend Setup
-1. Clone this repository: `git clone https://github.com/dojutsu-user/Django-React-Blog.git`.
+1. Clone this repository: `git clone https://github.com/pranjalbareth/devlogs.git`.
 2. Change the current directory to `backend` folder: `cd ./Django-React-Blog/backend/`.
 3. Create a virutal environment and install all backend dependencies with pipenv: `pipenv install`.
 4. Start the virtual environment: `pipenv shell`.
