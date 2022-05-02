@@ -1,4 +1,4 @@
-# DevLogs - A Blog for Developers
+# 👨‍💻 DevLogs - A Blog for Developers
 
 The backend is completely build on Django using Django Rest Framework, while the frontend is built using bootstrap
 
